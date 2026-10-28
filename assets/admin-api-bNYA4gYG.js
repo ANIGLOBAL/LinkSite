@@ -1,0 +1,1 @@
+import{D as e}from"./utils-QtLids5q.js";import{c as t,i as n,n as r,o as i}from"./api-client-DTuIkkTG.js";async function a(a,o={}){try{return await r(a,o)}catch(r){throw t(r)?(n(),e(`/sign-in?next=%2Fdashboard%2Fadmin`)):i(r)?e(`/dashboard`):r}}export{a as t};

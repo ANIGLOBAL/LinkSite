@@ -1,0 +1,1 @@
+export{t as clientLoader}from"./dashboard.profile-BDaS7olT.js";

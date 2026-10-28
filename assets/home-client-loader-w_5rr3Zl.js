@@ -1,0 +1,1 @@
+import{r as e}from"./mock-auth-C_wDkLDy.js";async function t({request:t}){return{signedIn:!!await e({APP_ORIGIN:`https://revoing.demo`,DB:null},t)}}export{t as clientLoader};

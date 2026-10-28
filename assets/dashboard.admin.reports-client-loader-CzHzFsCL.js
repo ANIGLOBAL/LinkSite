@@ -1,0 +1,1 @@
+import{t as e}from"./admin-api-bNYA4gYG.js";async function t({request:t}){let n=new URL(t.url).searchParams.get(`status`),r=n?`?status=${encodeURIComponent(n)}`:``,i=await e(`/api/admin/reports${r}`);return{reports:i.reports,filter:i.filter}}export{t as clientLoader};

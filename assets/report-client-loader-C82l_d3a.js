@@ -1,0 +1,1 @@
+function e({params:e}){return{username:String(e.username??``).replace(/^@/,``)}}export{e as clientLoader};

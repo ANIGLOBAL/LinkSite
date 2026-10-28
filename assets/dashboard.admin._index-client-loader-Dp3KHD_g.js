@@ -1,0 +1,1 @@
+import{t as e}from"./admin-api-bNYA4gYG.js";async function t(){let[t,n,r]=await Promise.all([e(`/api/admin/stats`),e(`/api/admin/users`),e(`/api/admin/reports?status=open`)]);return{stats:t,recentUsers:n.users.slice(0,6),openReports:r.reports.slice(0,6)}}export{t as clientLoader};

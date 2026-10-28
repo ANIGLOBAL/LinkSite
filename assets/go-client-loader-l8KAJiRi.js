@@ -1,0 +1,1 @@
+import{D as e}from"./utils-QtLids5q.js";import{r as t}from"./api-client-DTuIkkTG.js";function n({params:n}){let r=String(n.linkId??``);return e(t(`/go/${encodeURIComponent(r)}`))}export{n as clientLoader};

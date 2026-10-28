@@ -1,0 +1,1 @@
+import{D as e}from"./utils-QtLids5q.js";import{r as t}from"./mock-auth-C_wDkLDy.js";async function n({request:n}){if(await t({APP_ORIGIN:`https://revoing.demo`,DB:null},n))throw e(`/dashboard`);return null}export{n as clientLoader};

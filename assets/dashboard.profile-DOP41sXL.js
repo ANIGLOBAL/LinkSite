@@ -1,0 +1,1 @@
+export{t as clientAction}from"./dashboard.profile-ZAn4RqDF.js";

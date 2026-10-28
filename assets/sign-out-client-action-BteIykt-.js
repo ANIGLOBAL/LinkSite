@@ -1,0 +1,1 @@
+import{D as e}from"./utils-QtLids5q.js";import{n as t}from"./mock-auth-C_wDkLDy.js";async function n({request:n}){let r={APP_ORIGIN:`https://revoing.demo`,DB:null};try{return await t(r).api.signOut({headers:n.headers}),e(`/`)}catch{return e(`/`)}}export{n as clientAction};

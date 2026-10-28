@@ -1,0 +1,1 @@
+import{t as e}from"./admin-api-bNYA4gYG.js";async function t({request:t}){let n=(new URL(t.url).searchParams.get(`q`)??``).slice(0,80);return{users:(await e(`/api/admin/users?q=${encodeURIComponent(n)}`)).users,q:n}}export{t as clientLoader};

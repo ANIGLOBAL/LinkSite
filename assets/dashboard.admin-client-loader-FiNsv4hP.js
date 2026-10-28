@@ -1,0 +1,1 @@
+import{D as e}from"./utils-QtLids5q.js";import{t}from"./admin-api-bNYA4gYG.js";async function n(){if(!(await t(`/api/me`)).admin)throw e(`/dashboard`)}export{n as clientLoader};

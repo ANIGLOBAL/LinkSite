@@ -1,0 +1,1 @@
+import{D as e}from"./utils-QtLids5q.js";import{i as t}from"./mock-auth-C_wDkLDy.js";import{l as n}from"./mock-data-Yeqtom8t.js";function r(e){return!0}async function i({request:i}){let a={APP_ORIGIN:`https://revoing.demo`,DB:null},o=await t(a,i),s=await n(a.DB,o.user.id);if(!s)throw e(`/onboarding`);return{...s,uploadsEnabled:r(a)}}export{i as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./admin-api-bNYA4gYG.js";async function t(){return{allowlist:(await e(`/api/admin/admins`)).admins}}export{t as clientLoader};

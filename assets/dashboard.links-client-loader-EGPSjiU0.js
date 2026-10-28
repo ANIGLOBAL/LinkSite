@@ -1,0 +1,1 @@
+import{i as e}from"./mock-auth-C_wDkLDy.js";import{u as t}from"./mock-data-Yeqtom8t.js";async function n({request:n}){let r={APP_ORIGIN:`https://revoing.demo`,DB:null},i=await e(r,n);return{links:await t(r.DB,i.user.id)}}export{n as clientLoader};

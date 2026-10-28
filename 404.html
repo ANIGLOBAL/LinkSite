@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LinkSite</title>
+    <link rel="icon" type="image/svg+xml" href="/LinkSite/favicon.svg" />
+    <link rel="canonical" href="/LinkSite/" />
+    <script>
+      (function () {
+        var path = location.pathname;
+        if (path.indexOf("/Personal-profits/") === 0) {
+          path = "/LinkSite/" + path.slice(18);
+        } else if (path.indexOf("/LinkSite/") !== 0 && path !== "/LinkSite") {
+          // Unknown path on either host: land on the SPA root, keep nothing.
+          path = "/LinkSite/";
+        }
+        var saved = path + location.search + location.hash;
+        if (path !== "/LinkSite/") {
+          try {
+            sessionStorage.setItem("revoing:redirect", saved);
+          } catch (error) {}
+          location.replace("/LinkSite/");
+        }
+        // On "/Personal-profits/" (legacy host) this page is also the
+        // index route; "/LinkSite/" itself is a real document, so this
+        // script simply does nothing there.
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=https://aniglobal.github.io/LinkSite/" />
+    </noscript>
+    <style>
+      body { font-family: Georgia, "Times New Roman", serif; background: #f4f1e8; color: #151512; display: grid; place-items: center; height: 100vh; margin: 0; }
+      main { text-align: center; }
+      a { color: #151512; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h2>LinkSite moved</h2>
+      <p>If nothing happens, <a href="https://aniglobal.github.io/LinkSite/">open LinkSite here</a>.</p>
+    </main>
+  </body>
+</html>
